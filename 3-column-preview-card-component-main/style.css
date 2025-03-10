@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+html {
+
+    font-size: calc(0.6838vh + 0.6838vw); /* Example coefficient "X" = 0.6838 [5] */
+  
+  } 
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    border-radius: 0.85rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2.5rem;
+}
+h1{
+    font-family: "Big Shoulders Display",sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+img{
+    margin: 0;
+}
+.card a{
+    text-decoration: none;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.85rem;
+    display: block;
+    margin-top: 1rem;
+}
+.sedan{
+    border-radius: 0.75rem 0 0 0.75rem;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.75rem 0.75rem 0;
+}
+.sedan a{
+    color: hsl(31, 77%, 52%);;
+}
+.suv a{
+    color: hsl(184, 100%, 22%);
+}
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
